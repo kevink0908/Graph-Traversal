@@ -1,2 +1,4 @@
 # Graph Traversal
 This repository contains the source codes for the implementations of the algorithms for both breadth-first traversal and depth-first traversal. The two traversal algorithms will be performed on a given graph by utilizing the adjacency matrix representation of a [GivenGraph](https://user-images.githubusercontent.com/98494454/167744281-e48b2c1d-c114-45df-baf6-ac44e1a9a531.png).
+
+// NOTE: I have used the adjacency matrix to represent the given graph. In order to run this program and recreate the given graph, please run the main method in "GraphDriver.java" after having every other source code (GraphInterface.java, Graph.java, QueueInterface.java, LinkedQueue.java, EmptyQueueException.java, StackInterface.java, and LinkedStack.java) in the same source code folder. By running this main method, our program will automatically perform a breadth-first search and a depth-first search traversals on the given graph.
